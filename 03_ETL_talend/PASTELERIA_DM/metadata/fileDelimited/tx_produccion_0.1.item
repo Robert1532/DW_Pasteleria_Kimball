@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_c0N6sdKuEfC7TYNb9Q2eag" name="tx_produccion" dataPackage="_c0N6stKuEfC7TYNb9Q2eag" Server="Localhost 127.0.0.1" FilePath="C:/Users/rober/Desktop/paste,eria/Produccion/produccion_2019.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_c0N6stKuEfC7TYNb9Q2eag" name="default" dataManager="_c0N6sdKuEfC7TYNb9Q2eag">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_c0N6s9KuEfC7TYNb9Q2eag" id="_U4PioNKuEfC7TYNb9Q2eag" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6tNKuEfC7TYNb9Q2eag" label="tiempo" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6tdKuEfC7TYNb9Q2eag" label="prod" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6ttKuEfC7TYNb9Q2eag" label="suc" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6t9KuEfC7TYNb9Q2eag" label="emp" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6uNKuEfC7TYNb9Q2eag" label="cant" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6udKuEfC7TYNb9Q2eag" label="costo_mp" length="-1" precision="4" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6utKuEfC7TYNb9Q2eag" label="tiempo_prod" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_c0N6u9KuEfC7TYNb9Q2eag" label="merma" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
